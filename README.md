@@ -1,10 +1,3 @@
-Below is a proposed **README.md** for the [Minecraft-JS](https://github.com/AbiramiSBN/Minecraft-JS) repository, generated from the observed project structure and build configuration:
-
-Based on the repository's file listing, it comprises three primary folders—`src`, `shaders`, and `server`—alongside the configuration files `package.json` and `webpack.config.js` at the root ([GitHub][1]).
-The `webpack.config.js` defines an entry point at `src/main.js`, uses `html-webpack-plugin` to generate the HTML file, and configures a development server with hot reloading and support for loading GLSL shader files via `glsl-shader-loader` ([GitHub][2]).
-There is currently no license file in the repository, so you may wish to add an appropriate license (e.g., MIT) to clarify usage rights ([GitHub][1]).
-
-````markdown
 # Minecraft-JS
 
 A browser-based voxel game inspired by Minecraft, built with JavaScript and WebGL shaders, bundled via Webpack and optionally served by a Node.js backend.
